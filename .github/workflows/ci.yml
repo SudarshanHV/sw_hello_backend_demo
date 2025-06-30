@@ -16,6 +16,7 @@ jobs:
       sonar-host-url: https://sonarcloud.io
       sonar-organization: sudarshanhv
       enable-coverage: true
+    secrets: inherit
 
   deploy:
     needs: test
