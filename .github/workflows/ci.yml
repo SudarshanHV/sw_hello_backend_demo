@@ -12,9 +12,9 @@ jobs:
     with:
       app-name: "Hello Backend"
       test-command: "npm test"
-      sonar-project-key: coverage-demo-workflows
+      sonar-project-key: sudarshanhv_coverage-demo-workflows
       sonar-host-url: https://sonarcloud.io
-      sonar-organization: SudarshanHV
+      sonar-organization: sudarshanhv
       enable-coverage: true
 
   deploy:
